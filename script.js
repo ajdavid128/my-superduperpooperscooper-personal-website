@@ -1,5 +1,9 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const h3 = document.createElement("h3");
+h3.textContent = "Are you ready to get to know a little bit about Aaron?";
+document.querySelector("body").appendChild(h3);
 
-document.querySelector("body").appendChild(h2);
+const h5 = document.createElement("h5");
+h5.textContent = "…Because you’re about too!";
+document.querySelector("body").appendChild(h5);
+
 
