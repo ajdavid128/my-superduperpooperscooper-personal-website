@@ -2,3 +2,29 @@ body {
     background: #DB6009;
 }
 
+h1 {
+    font-size: 125px;
+    font-family: Marker Felt;
+    text-align: center;
+    background-color: aqua;
+}
+
+img.sunglasses {
+    width: 300px;
+}
+
+img.cartoon {
+    width: 400px;
+}
+
+h3 {
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 30px;
+}
+
+h5 {
+    font-family: Comic Sans MS;
+    text-align: center;
+    font-size: 10px;
+}
