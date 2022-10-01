@@ -9,24 +9,20 @@ h1 {
     background-color: aqua;
 }
 
-img.sunglasses {
-    width: 300px;
+.column {
+    float: left;
+    width: 18%;
+    padding: 3px;
 }
 
-img.cartoon1 {
-    width: 400px;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-img.cartoon2 {
-    width: 350px;
-}
-img.cartoon3 {
+
+img.sunglasses {
     width: 300px;
-}
-img.cartoon4 {
-    width: 250px;
-}
-img.cartoon5 {
-    width: 400px;
 }
 
 h3 {
