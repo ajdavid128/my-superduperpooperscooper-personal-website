@@ -1,28 +1,14 @@
 body {
     background: #DB6009;
+    cursor: url(./images-for-website/pizzacursor.png), default;
 }
 
+/* Headers */
 h1 {
     font-size: 125px;
     font-family: Marker Felt;
     text-align: center;
     background-color: aqua;
-}
-
-.column {
-    float: left;
-    width: 18%;
-    padding: 3px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-img.sunglasses {
-    width: 300px;
 }
 
 h3 {
@@ -36,3 +22,32 @@ h5 {
     text-align: center;
     font-size: 10px;
 }
+
+/* Cartoon Images */
+div.row {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Bio */
+
+p#bio {
+    font-family: Trebuchet MS;
+}
+
+img.sunglasses {
+    width: 300px;
+}
+
+
