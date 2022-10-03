@@ -1,6 +1,15 @@
 body {
     background: #DB6009;
     cursor: url(./images-for-website/pizzacursor.png), default;
+    width: 100%;
+    height: 100%;
+}
+
+div.colorBorder {
+    display: block;
+    float: left;
+    background: #056c72;
+    width: 25%;
 }
 
 /* Headers */
@@ -44,6 +53,10 @@ div.row {
 
 p#bio {
     font-family: Trebuchet MS;
+    display: block;
+    width: 800px;
+    margin-left: 5%;
+    margin-right: auto;
 }
 
 img.sunglasses {
