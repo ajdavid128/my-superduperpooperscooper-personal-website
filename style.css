@@ -5,10 +5,32 @@ body {
     margin: 0px;
 }
 
-a, input {
-    cursor: url(./images-for-website/pizzacursor2.png), default; 
+body::before {
+    background-color: red;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    z-index: -1;
+    border-bottom-right-radius: 10px;
 }
 
+a, input {
+    cursor: url(./images-for-website/pizzacursor2.png), default; 
+    /* if you use the ":hover" attribute you can change how the mouse looks when hovering over an element */
+}
+
+a:hover, input:hover {
+    background: blue;
+    /* if you use the ":hover" attribute you can change how the mouse looks when hovering over an element */
+}
+
+/*a:active, input:active {
+    background: blue;
+    if you use the ":active" attribute you can change how the mouse looks when activating an element
+}*/
 
 /*
 The accent stripe that isn't working
@@ -27,7 +49,6 @@ h1 {
     font-size: 125px;
     font-family: Marker Felt;
     text-align: center;
-    background-color: aqua;
 }
 
 h3 {
@@ -72,6 +93,7 @@ div.row {
 
     60% {
         left: 75%;
+        animation-timing-function: cubic-bezier(1, 0, 1.0, 1.0) ;
     }
   
     to {
@@ -102,13 +124,19 @@ span {
     display: table;
     margin-left: auto;
     margin-right: auto;
-
 }
 
+.wrong {
+    background: red;
+}
+
+.right {
+    background: greenyellow;
+}
 
 img.sunglasses {
     width: 300px;
-    ;
+
 }
 
 

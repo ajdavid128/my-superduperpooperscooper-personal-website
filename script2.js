@@ -4,6 +4,7 @@ function buttonGame1() {
     const input = document.getElementById('button1');
 
     function clickAlert() {
+        input.classList.add("wrong");
       alert('Try harder.');
     }
     
@@ -17,6 +18,7 @@ function buttonGame2() {
     const input2 = document.getElementById('button2');
 
     function clickAlert() {
+        input2.classList.add("wrong");
       alert('Not even close...');
     }
     
@@ -30,6 +32,7 @@ function buttonGame3() {
     const input3 = document.getElementById('button3');
 
     function clickAlert() {
+        input3.classList.add("wrong");
       alert('Coldest.');
     }
     
@@ -43,6 +46,7 @@ function buttonGame4() {
     const input4 = document.getElementById('button4');
 
     function clickAlert() {
+        input4.classList.add("wrong");
       alert('Warmer.');
     }
     
@@ -56,6 +60,7 @@ function buttonGame5() {
     const input5 = document.getElementById('button5');
 
     function clickAlert() {
+        input5.classList.add("wrong");
       alert("If I had $1 for every time this button was clicked... I'd have a few whole dollars.");
     }
     
@@ -69,6 +74,7 @@ function buttonGame6() {
     const input6 = document.getElementById('button6');
 
     function clickAlert() {
+        input6.classList.add("wrong");
       alert('Nope.');
     }
     
@@ -82,6 +88,7 @@ function buttonGame7() {
     const input7 = document.getElementById('button7');
 
     function clickAlert() {
+        input7.classList.add("right");
       alert('Nailed it! How many tries did it take?');
     }
     
@@ -95,6 +102,7 @@ function buttonGame8() {
     const input8 = document.getElementById('button8');
 
     function clickAlert() {
+        input8.classList.add("wrong");
       alert('Ooo getting close!');
     }
     
@@ -108,6 +116,7 @@ function buttonGame9() {
     const input9 = document.getElementById('button9');
 
     function clickAlert() {
+        input9.classList.add("wrong");
       alert(`Congrats, you didn't click the right button.`);
     }
     
