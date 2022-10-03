@@ -1,16 +1,19 @@
 body {
-    background: #DB6009;
-    cursor: url(./images-for-website/pizzacursor.png), default;
-    width: 100%;
-    height: 100%;
+    background: white;
+    cursor: url(./images-for-website/pizzacursor.png) 8 65, default; 
+    /* need to use x,y coordinates of the pixels you want the cursor to be at when you upload an image to replace the cursor  */
 }
 
-div.colorBorder {
+/*
+The accent stripe that isn't working
+section.color {
     display: block;
     float: left;
     background: #056c72;
     width: 25%;
-}
+    height: 100px;
+}*/
+
 
 /* Headers */
 h1 {
@@ -49,15 +52,52 @@ div.row {
     display: table;
 }
 
+/* Animation */
+
+@keyframes myanimation{
+    from {
+      left: 100%;
+    }
+
+    25% {
+        left: 75%;
+    }
+
+    60% {
+        left: 75%;
+    }
+  
+    to {
+      left: -350px;
+    }
+  }
+  
+  .cartoon5 {
+    animation-name: myanimation;
+    animation-duration: 8s;
+    position: absolute;
+    animation-iteration-count: infinite;
+  }
+
 /* Bio */
 
 p#bio {
     font-family: Trebuchet MS;
     display: block;
     width: 800px;
-    margin-left: 5%;
+    margin-left: auto;
     margin-right: auto;
 }
+
+/* Click Gameboard */
+
+span {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
 img.sunglasses {
     width: 300px;
