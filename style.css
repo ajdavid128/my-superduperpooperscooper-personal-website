@@ -1,6 +1,6 @@
 body {
     background: white;
-    cursor: url(./images-for-website/pizzacursor.png) 8 65, default; 
+    cursor: url(./images-for-website/pizzacursor2.png), default; 
     /* need to use x,y coordinates of the pixels you want the cursor to be at when you upload an image to replace the cursor  */
 }
 
@@ -17,6 +17,7 @@ section.color {
 
 /* Headers */
 h1 {
+    margin: 0px;
     font-size: 125px;
     font-family: Marker Felt;
     text-align: center;
