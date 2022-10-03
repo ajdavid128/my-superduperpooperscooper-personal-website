@@ -2,7 +2,13 @@ body {
     background: white;
     cursor: url(./images-for-website/pizzacursor2.png), default; 
     /* need to use x,y coordinates of the pixels you want the cursor to be at when you upload an image to replace the cursor  */
+    margin: 0px;
 }
+
+a, input {
+    cursor: url(./images-for-website/pizzacursor2.png), default; 
+}
+
 
 /*
 The accent stripe that isn't working
@@ -102,6 +108,7 @@ span {
 
 img.sunglasses {
     width: 300px;
+    ;
 }
 
 
