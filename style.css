@@ -1,20 +1,8 @@
 body {
-    background: white;
+    background: linear-gradient(to left, white, white 50%, white 88%, #056c72 88%);
     cursor: url(./images-for-website/pizzacursor2.png), default; 
     /* need to use x,y coordinates of the pixels you want the cursor to be at when you upload an image to replace the cursor  */
     margin: 0px;
-}
-
-body::before {
-    background-color: red;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30%;
-    height: 100%;
-    z-index: -1;
-    border-bottom-right-radius: 10px;
 }
 
 a, input {
