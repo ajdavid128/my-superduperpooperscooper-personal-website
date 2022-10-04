@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left, white, white 50%, white 88%, #056c72 88%);
+    background: linear-gradient(to left, white, white 50%, white 88%, #3e5641 88%);
     cursor: url(./images-for-website/pizzacursor2.png), default; 
     /* need to use x,y coordinates of the pixels you want the cursor to be at when you upload an image to replace the cursor  */
     margin: 0px;
@@ -11,7 +11,7 @@ a, input {
 }
 
 a:hover, input:hover {
-    background: blue;
+    background: #83bca9;
     /* if you use the ":hover" attribute you can change how the mouse looks when hovering over an element */
 }
 
@@ -32,10 +32,13 @@ section.color {
 
 
 /* Headers */
+
 h1 {
-    margin: 0px;
+    display: block;
+    margin-left: 12%;
+    margin-right: auto;
     font-size: 125px;
-    font-family: Marker Felt;
+    font-family: Satisfy;
     text-align: center;
 }
 
@@ -43,12 +46,18 @@ h3 {
     font-family: Comic Sans MS;
     text-align: center;
     font-size: 30px;
+    display: block;
+    margin-left: 12%;
+    margin-right: auto;
 }
 
 h5 {
     font-family: Comic Sans MS;
     text-align: center;
     font-size: 10px;
+    display: block;
+    margin-left: 12%;
+    margin-right: auto;
 }
 
 /* Cartoon Images */
@@ -81,7 +90,7 @@ div.row {
 
     60% {
         left: 75%;
-        animation-timing-function: cubic-bezier(1, 0, 1.0, 1.0) ;
+        
     }
   
     to {
@@ -91,7 +100,7 @@ div.row {
   
   .cartoon5 {
     animation-name: myanimation;
-    animation-duration: 8s;
+    animation-duration: 10s;
     position: absolute;
     animation-iteration-count: infinite;
   }
@@ -101,9 +110,10 @@ div.row {
 p#bio {
     font-family: Trebuchet MS;
     display: block;
-    width: 800px;
-    margin-left: auto;
+
+    margin-left: 12%;
     margin-right: auto;
+    text-align: center;
 }
 
 /* Click Gameboard */
@@ -122,8 +132,24 @@ span {
     background: greenyellow;
 }
 
+.booton { /* Customizing Buttons */
+    background-color: #d36135;
+    border: none;
+    color: white;
+    padding: 32px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+/* Thanks Section with Photo */
 img.sunglasses {
     width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
