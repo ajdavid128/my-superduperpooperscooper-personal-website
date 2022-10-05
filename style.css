@@ -38,8 +38,9 @@ h1 {
     margin-left: 12%;
     margin-right: auto;
     font-size: 125px;
-    font-family: Satisfy;
+    font-family: Nabla;
     text-align: center;
+    color: #162, 73, 54;
 }
 
 h3 {
@@ -100,7 +101,7 @@ div.row {
   
   .cartoon5 {
     animation-name: myanimation;
-    animation-duration: 10s;
+    animation-duration: 8s;
     position: absolute;
     animation-iteration-count: infinite;
   }
@@ -135,6 +136,7 @@ span {
 .booton { /* Customizing Buttons */
     background-color: #d36135;
     border: none;
+    border-radius: 12px;
     color: white;
     padding: 32px 32px;
     text-align: center;
@@ -142,6 +144,7 @@ span {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /* Thanks Section with Photo */
