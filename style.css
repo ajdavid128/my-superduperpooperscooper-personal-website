@@ -1,5 +1,26 @@
-body {
-    background: linear-gradient(to left, white, white 50%, white 88%, #3e5641 88%);
+body { /* color block background */ 
+    background-repeat:no-repeat; 
+    background-image:   
+    linear-gradient(to right, RGB(50, 67, 118), RGB(50, 67, 118)),
+    linear-gradient(to right, RGB(240, 93, 25), RGB(240, 93, 25)),
+    linear-gradient(to right, RGB(236, 192, 50), RGB(236, 192, 50)),
+    linear-gradient(to right, RGB(249, 129, 119), RGB(249, 129, 119)),
+    linear-gradient(to right, RGB(29, 35, 53), RGB(29, 35, 53));       
+    background-position:
+    0 60px,
+    0 410px,
+    0 760px,
+    0 1110px,
+    0 1460px;       
+    background-size:  
+    100% 350px,  
+    100% 350px,
+    100% 350px,
+    100% 350px,
+    100% 350px;
+    
+    
+    /*background: linear-gradient(to left, white, white 50%, white 88%, #3e5641 88%); gradient vertical stripe construction*/
     cursor: url(./images-for-website/pizzacursor2.png), default; 
     /* need to use x,y coordinates of the pixels you want the cursor to be at when you upload an image to replace the cursor  */
     margin: 0px;
@@ -20,35 +41,23 @@ a:hover, input:hover {
     if you use the ":active" attribute you can change how the mouse looks when activating an element
 }*/
 
-/*
-The accent stripe that isn't working
-section.color {
-    display: block;
-    float: left;
-    background: #056c72;
-    width: 25%;
-    height: 100px;
-}*/
-
-
 /* Headers */
 
 h1 {
     display: block;
-    margin-left: 12%;
+    margin-left: auto;
     margin-right: auto;
-    font-size: 125px;
+    font-size: 100px;
     font-family: Nabla;
     text-align: center;
-    color: #162, 73, 54;
 }
 
 h3 {
     font-family: Comic Sans MS;
-    text-align: center;
-    font-size: 30px;
+    text-align: left;
+    font-size: 40px;
     display: block;
-    margin-left: 12%;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -57,7 +66,7 @@ h5 {
     text-align: center;
     font-size: 10px;
     display: block;
-    margin-left: 12%;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -111,7 +120,6 @@ div.row {
 p#bio {
     font-family: Trebuchet MS;
     display: block;
-
     margin-left: 12%;
     margin-right: auto;
     text-align: center;
