@@ -45,6 +45,7 @@ figure {
     width: 1176px;
 }
 
+/* THIS SECTION CONTROLS THE FRAMING ELEMENT I WANT */
 .frame.frame-container, .woocommerce .frame-container.col2-set, .woocommerce-page .frame-container.col2-set {
     width: auto;
     background-color: #0693e3;
