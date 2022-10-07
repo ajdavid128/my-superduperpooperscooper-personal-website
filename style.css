@@ -41,7 +41,7 @@ a:hover, input:hover {
     if you use the ":active" attribute you can change how the mouse looks when activating an element
 }*/
 
-/* Headers */
+/* HEADERS */
 
 /* THIS SECTION CONTROLS THE FRAMING ELEMENT I WANT */
 .frame.frame-container {
@@ -62,32 +62,54 @@ a:hover, input:hover {
     /*display: table;*/
 }
 
-
 h1 {
    /* display: block;
     margin-left: auto;
     margin-right: auto;*/
+    margin: 0;
+    padding: 11px;
     font-size: 100px;
     font-family: Nabla;
     text-align: center;
 }
 
+.frame2.frame-container2 {
+    width: auto;
+    background-color: RGB(240, 93, 25);
+    margin: auto;
+}
+
+.frame2, [class*=bit-] { /* THIS SECTION CONTROLS THE FRAMING ELEMENT I WANT */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.frame2:after { /* THIS SECTION CONTROLS THE FRAMING ELEMENT I WANT */
+    clear: both;
+    content: "";
+    display: table;
+    padding: 100px;
+}
+
 h3 {
     font-family: Comic Sans MS;
-    text-align: left;
+    text-align: center;
     font-size: 40px;
-    display: block;
+    margin: 0;
+    
+    /*display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 
 h5 {
     font-family: Comic Sans MS;
     text-align: center;
     font-size: 10px;
-    display: block;
+    /*display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
 }
 
 /* Cartoon Images */
