@@ -1,4 +1,4 @@
-body { /* color block background */ 
+body { /* color block background  
     background-repeat:no-repeat; 
     background-image:   
     linear-gradient(to right, RGB(50, 67, 118), RGB(50, 67, 118)),
@@ -17,7 +17,7 @@ body { /* color block background */
     100% 350px,
     100% 350px,
     100% 350px,
-    100% 350px;
+    100% 350px; */
     
     
     /*background: linear-gradient(to left, white, white 50%, white 88%, #3e5641 88%); gradient vertical stripe construction*/
@@ -43,10 +43,30 @@ a:hover, input:hover {
 
 /* Headers */
 
+/* THIS SECTION CONTROLS THE FRAMING ELEMENT I WANT */
+.frame.frame-container {
+    width: auto;
+    background-color: RGB(50, 67, 118);
+    margin: auto;
+}
+
+.frame, [class*=bit-] { /* THIS SECTION CONTROLS THE FRAMING ELEMENT I WANT */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.frame:after { /* THIS SECTION CONTROLS THE FRAMING ELEMENT I WANT */
+    clear: both;
+    content: "";
+    /*display: table;*/
+}
+
+
 h1 {
-    display: block;
+   /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     font-size: 100px;
     font-family: Nabla;
     text-align: center;
